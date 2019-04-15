@@ -1,0 +1,16 @@
+{
+    "_id": "",
+    "snapshot": [
+        {
+            "file": "/home/danilo/nacos-master/test/src/test/java/com/alibaba/nacos/test/smoke/nacosSmoke_ITCase.java",
+            "countClasses": 1,
+            "classes": [
+                {
+                    "serialized": null
+                }
+            ]
+        }
+    ],
+    "rootDir": "/home/danilo/nacos-master",
+    "__v": 0
+}
