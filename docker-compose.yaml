@@ -1,7 +1,17 @@
 version: "3.2"
 services:
+    app:
+       image: node:10.15.3-jessie
+       ports:
+          - "4488:4488"
+       volumes:
+          - "/home/danilo/conectew:/placeholder"
+          - "./:/serialize-it"
+       links:
+          - mongodb
+       command: "node /serialize-it/index.js"
     mongodb:
-        restart: always
-        image: mongo:latest
-        ports:
-            - "27017:27017"
+      restart: always
+      image: mongo:latest
+      ports:
+          - "27017:27017"

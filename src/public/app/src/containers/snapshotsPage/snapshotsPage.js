@@ -76,7 +76,7 @@ class SnapshotsPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      path: "path here",
+      path: "/placeholder",
       snapshots: [],
       isLoading: false
     }
